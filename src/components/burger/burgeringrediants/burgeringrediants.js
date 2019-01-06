@@ -15,18 +15,18 @@ class BurgerIngrediants extends React.Component{
                <div className={Classes.Seeds2}></div>
            </div> )
            break; 
-        case ("Meat"):
+        case ("meat"):
            ingrediants = <div className={Classes.Meat}></div>
            break; 
-        case ("Cheese"):
+        case ("cheese"):
            ingrediants = <div className={Classes.Cheese}></div>
            break;
 
-        case ("Salad"):
+        case ("salad"):
            ingrediants = <div className={Classes.Salad}></div>
            break;
 
-        case ("Bacon"):
+        case ("bacon"):
            ingrediants = <div className={Classes.Bacon}></div>
            break;
         default:
